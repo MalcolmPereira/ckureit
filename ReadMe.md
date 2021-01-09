@@ -19,7 +19,7 @@ Examples:
 - Encrypt <https://encrypt.one>
 - Encipher <https://encipher.it>
 - Macpaw <https://macpaw.com/encrypto>
-- Veracrypt <https://www.veracrypt.fr/en/Downloads.html>
+- Veracrypt <https://www.veracrypt.fr>
 
 All these solutions use well know encryption standards to protect information, wrapping proven encryption schemes to secure data.
 
