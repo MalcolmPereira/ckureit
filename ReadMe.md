@@ -50,7 +50,7 @@ Hashing generates a fixed length hash output for input of any length. Basic prem
 - Mathematical Hash Function
 - Output, which is the Hash Value and always a fixed length
 
-![Hashing](HashFunction.png)
+![Hashing](./readme_assets/HashFunction.png)
 
 Salt is used to make hash generation stronger. Salt is a unique, randomly generated string that is added to input string as part of hashing process. Salting makes is harder to crack passwords.
 
@@ -87,7 +87,7 @@ Cryptographic hash functions that should not be used anymore
 
 Encryption is used to encode data making it very very hard to read. Encryption converts original plain text information into an encoded form called cipher text. The process of encoding plain text information into cipher text is called encryption or ciphering while retrieving plain text data from cipher text is called decryption or deciphering.
 
-![Encryption](Encryption.png)
+![Encryption](./readme_assets/Encryption.png)
 
 Encryption is the process that scramble data in such a way that it can be only unscrambled back by a secret code or a key, this is called the cryptographic key.  The cryptographic key is based on mathematical algorithms that has been agreed on by all parties dealing with the encrypted data. This cryptographic keys provides data security to the data.
 
@@ -99,7 +99,7 @@ Based on this cryptographic key used for encryption, we have two types of encryp
 
 In Symmetric Key Encryption, the same key is used for encryption and decryption. Any parties involved  in secure communication must have access to same key for encryption and decryption.
 
-![Symmetric Key Encryption](Symmetric.png)
+![Symmetric Key Encryption](./readme_assets/Symmetric.png)
 
 Commonly used Symmetric Key Encryption algorithms include:
 
@@ -111,7 +111,7 @@ Commonly used Symmetric Key Encryption algorithms include:
 
 In Asymmetric Key Encryption, different keys are used for encryption and decryption. This is also called Public Key Infrastructure in which a public key is used for encryption and private key for decryption. The public key is available to everyone, however private key is kept secret and only used for decryption.
 
-![Asymmetric Key Encryption](Asymmetric.png)
+![Asymmetric Key Encryption](./readme_assets/Asymmetric.png)
 
 Asymmetric Key Encryption is used in everyday communication over internet for TLS communications, i.e. all services accessed using https protocol.
 
@@ -142,14 +142,14 @@ The entered secret key is manipulated by adding dynamically generated nonce to c
 
 During file decryption the decrypt key along with the secret is used to recreate secret key and IV key for file decryption.
 
-![Asymmetric Key Encryption](ckureit.png)
+![Asymmetric Key Encryption](./readme_assets/ckureit.png)
 
 ### Example CKUREIT Help:
 
 ```
     ./ckureit -h
 ```
-![CKUREIT Encryption](ckureit-help.png)
+![CKUREIT Encryption](./readme_assets/ckureit-help.png)
 
 ### Example CKUREIT File Encryption:
 
@@ -158,7 +158,7 @@ During file decryption the decrypt key along with the secret is used to recreate
 
     ./ckureit -s SuperSECRETPaswword$121 -f supersecretFile.file
 ```
-![CKUREIT Encryption](ckureit-encryption.png)
+![CKUREIT Encryption](./readme_assets/ckureit-encryption.png)
 
 ### Example CKUREIT File Decryption:
 
@@ -167,6 +167,4 @@ During file decryption the decrypt key along with the secret is used to recreate
 
     ./ckureit -s SuperSECRETPaswword$121 -f supersecretFile.ckureit -d XyZ12
 ```
-![CKUREIT Decryption](ckureit-decryption.png)
-
-
+![CKUREIT Decryption](./readme_assets/ckureit-decryption.png)
